@@ -8,4 +8,10 @@ public class Student {
     public String Name;
     public String Addr;
     public String Tel;
+    public Student(String n, String a, String t)
+    {
+        this.Name = n;
+        this.Addr = a;
+        this.Tel = t;
+    }
 }
