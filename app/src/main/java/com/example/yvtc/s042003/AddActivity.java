@@ -68,6 +68,6 @@ public class AddActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
+        finish();
     }
 }
